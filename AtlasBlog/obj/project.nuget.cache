@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pEcGIukcvHRfpN6HHPxr503p7IQUtoO++WdfMxMhvM0YKC03LxBmlwSN6asfzUYQbjLD7rol6uwNI6iDZnI/xA==",
+  "dgSpecHash": "GHk5IFZa4SpIDCO0B2YRt2p+Xh6jOMhzuf14F6VVX3GqKirPjRPraDLHwAdOQVy4v87+r23EFh2heHIa9YgzuQ==",
   "success": true,
   "projectFilePath": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/AtlasBlog.csproj",
   "expectedPackageFiles": [
@@ -33,6 +33,8 @@
     "/Users/slothmanking/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/Users/slothmanking/.nuget/packages/npgsql/6.0.3/npgsql.6.0.3.nupkg.sha512",
+    "/Users/slothmanking/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.3/npgsql.entityframeworkcore.postgresql.6.0.3.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.0.6/sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/sqlitepclraw.core/2.0.6/sqlitepclraw.core.2.0.6.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.6/sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
