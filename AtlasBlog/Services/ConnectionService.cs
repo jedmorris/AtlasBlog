@@ -15,6 +15,7 @@ public class ConnectionService
     {
         var databaseUri = new Uri(databaseUrl);
 
+        //References for Db ConnectionString builder
         //databaseUri = postgres://sofiebafofvs.sivjanoivna0e87vvfv_jasontwichell:Abc&123!;rogjeegepvujh
         //databaseUri.UserInfo = jasontwichell:Abc&123!
         //userInfo[0] = jasontwichell
