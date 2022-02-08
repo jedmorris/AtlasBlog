@@ -7,7 +7,10 @@ using AtlasBlog.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Replaced default connection string with static ConnectionService
+var connectionString = ConnectionService.GetConnectionString(builder.Configuration);
+// var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(connectionString));
 
@@ -26,6 +29,14 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<DataService>();
 
 var app = builder.Build();
+
+//When calling a service from this middleware we need an instance of IServiceScope
+var scope = app.Services.CreateScope();
+var dataService = scope.ServiceProvider.GetRequiredService<DataService>();
+await dataService.SetupDbAsync();
+//Alt code below encompasses all three lines above into one - wide vs. tall code structure
+// await app.Services.CreateScope().ServiceProvider.GetRequiredService<DataService>().SetupDbAsync();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -13,7 +13,7 @@ public class DataService
       _context = context;
    }
 
-   public async Task SetupDb()
+   public async Task SetupDbAsync()
    {
       //Run the migrations async
       await _context.Database.MigrateAsync();
