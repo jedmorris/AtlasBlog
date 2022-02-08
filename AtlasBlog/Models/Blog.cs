@@ -17,10 +17,10 @@ public class Blog
    public string Description { get; set; } = "";
    
    [DataType(DataType.Date)]
-   public DateTime CreatedDate { get; set; }
+   public DateTime Created { get; set; }
    
-   public DateTime? UpdatedDate { get; set; }
+   public DateTime? Updated { get; set; }
    
    // This model should have a list of Posts as children
-   
+   public ICollection<BlogPost> BlogPosts { get; set; } = new HashSet<BlogPost>();
 }
