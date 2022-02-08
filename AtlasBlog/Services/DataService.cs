@@ -1,4 +1,5 @@
 using AtlasBlog.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace AtlasBlog.Services;
 
@@ -11,4 +12,11 @@ public class DataService
    {
       _context = context;
    }
+
+   public async Task SetupDb()
+   {
+      //Run the migrations async
+      await _context.Database.MigrateAsync();
+   }
+
 }
