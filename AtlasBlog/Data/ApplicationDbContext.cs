@@ -10,4 +10,7 @@ public class ApplicationDbContext : IdentityDbContext<BlogUser>
         : base(options)
     {
     }
+    
+    public DbSet<Blog> Blogs { get; set; }
+
 }
