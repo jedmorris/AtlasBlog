@@ -62,6 +62,8 @@ namespace AtlasBlog.Controllers
         {
             if (ModelState.IsValid)
             {
+                blogPost.Created = DateTime.UtcNow;
+                
                 _context.Add(blogPost);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
