@@ -33,7 +33,7 @@ public class BlogPost
     public string Body { get; set; } = "";
     
     public DateTime Created { get; set; }
-    public DateTime Updated { get; set; }
+    public DateTime? Updated { get; set; }
     
     // Navigation properties
     public Blog? Blog { get; set; } 
