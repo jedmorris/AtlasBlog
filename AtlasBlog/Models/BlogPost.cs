@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using AtlasBlog.Enums;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AtlasBlog.Models;
@@ -20,6 +21,8 @@ public class BlogPost
     [Required]
     [StringLength(200, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]
     public string Abstract { get; set; } = "";
+    
+    public BlogPostState BlogPostState { get; set; }
     
     [Required]
     [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]

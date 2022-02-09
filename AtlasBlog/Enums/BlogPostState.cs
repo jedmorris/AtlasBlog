@@ -1,6 +1,8 @@
 namespace AtlasBlog.Enums;
 
-public class BlogPostState
+public enum BlogPostState
 {
-    
+    ProductionReady,
+    InDevelopment,
+    PreviewReady,
 }
