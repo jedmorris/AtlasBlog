@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace AtlasBlog.Models;
 
@@ -12,6 +13,10 @@ public class BlogPost
     [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]
     public string Title { get; set; } = "";
     
+    public string Slug { get; set; }
+    
+    public bool IsDeleted { get; set; }
+    
     [Required]
     [StringLength(200, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]
     public string Abstract { get; set; } = "";
@@ -22,11 +27,7 @@ public class BlogPost
     
     public DateTime Created { get; set; }
     
-    public DateTime Update { get; set; }
-    
-    
-    
-    
+    public DateTime Updated { get; set; }
     
     // Navigation properties
     public Blog Blog { get; set; } = default!;
