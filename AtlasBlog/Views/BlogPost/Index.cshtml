@@ -31,9 +31,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Body)
             </th>
-            @* <th> *@
-            @*     @Html.DisplayNameFor(model => model.Created) *@
-            @* </th> *@
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
             @* <th> *@
             @*     @Html.DisplayNameFor(model => model.Updated) *@
             @* </th> *@
@@ -62,11 +62,13 @@
                 @Html.DisplayFor(modelItem => item.BlogPostState)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Body)
+                @* @Html.DisplayFor(modelItem => item.Body) *@
+                @Html.Raw(item.Body)
             </td>
-            @* <td> *@
-            @*     @Html.DisplayFor(modelItem => item.Created) *@
-            @* </td> *@
+            <td>
+                @* @Html.DisplayFor(modelItem => item.Created) *@
+                @item.Created.ToString("MMM dd, yyyy")
+            </td>
             @* <td> *@
             @*     @Html.DisplayFor(modelItem => item.Updated) *@
             @* </td> *@
