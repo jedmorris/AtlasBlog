@@ -37,6 +37,6 @@ public class BlogPost
     public DateTime Updated { get; set; }
     
     // Navigation properties
-    public Blog Blog { get; set; } = default!;
+    public Blog? Blog { get; set; } 
 
 }
