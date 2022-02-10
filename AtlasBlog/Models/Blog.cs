@@ -20,6 +20,10 @@ public class Blog
    public DateTime Created { get; set; }
    
    public DateTime? Updated { get; set; }
+
+   public byte[] ImageData { get; set; } = Array.Empty<byte>();
+
+   public string ImageType { get; set; } = "";
    
    // This model should have a list of Posts as children
    public ICollection<BlogPost> BlogPosts { get; set; } = new HashSet<BlogPost>();
