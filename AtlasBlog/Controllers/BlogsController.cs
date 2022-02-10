@@ -48,8 +48,8 @@ namespace AtlasBlog.Controllers
             return View(blog);
         }
 
-        [Authorize(Roles = "Administrator")]
         // GET: Blogs/Create
+        [Authorize(Roles = "Administrator")
         public IActionResult Create()
         {
             return View();
@@ -80,6 +80,7 @@ namespace AtlasBlog.Controllers
         }
 
         // GET: Blogs/Edit/5
+        [Authorize(Roles = "Administrator")
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -131,6 +132,7 @@ namespace AtlasBlog.Controllers
         }
 
         // GET: Blogs/Delete/5
+        [Authorize(Roles = "Administrator")
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
