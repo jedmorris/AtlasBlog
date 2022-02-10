@@ -9,6 +9,7 @@ using Microsoft.EntityFrameworkCore;
 using AtlasBlog.Data;
 using AtlasBlog.Models;
 using AtlasBlog.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AtlasBlog.Controllers
 {
@@ -47,6 +48,7 @@ namespace AtlasBlog.Controllers
             return View(blog);
         }
 
+        [Authorize(Roles = "Administrator")]
         // GET: Blogs/Create
         public IActionResult Create()
         {
