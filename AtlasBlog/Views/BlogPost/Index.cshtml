@@ -1,4 +1,7 @@
+@using AtlasBlog.Services.Interfaces
 @model IEnumerable<AtlasBlog.Models.BlogPost>
+
+@inject IImageService _imageService
 
 @{
     ViewData["Title"] = "Index";
@@ -20,7 +23,7 @@
             @*     @Html.DisplayNameFor(model => model.Slug) *@
             @* </th> *@
             <th>
-                @Html.DisplayNameFor(model => model.IsDeleted)
+                @* image *@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Abstract)
@@ -53,7 +56,7 @@
             @*     @Html.DisplayFor(modelItem => item.Slug) *@
             @* </td> *@
             <td>
-                @Html.DisplayFor(modelItem => item.IsDeleted)
+                @* image *@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Abstract)
