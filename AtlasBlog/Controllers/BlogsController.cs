@@ -62,6 +62,12 @@ namespace AtlasBlog.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (imageFile != null)
+                {
+                    blog.ImageData = await _imageService.ConvertFileToByteArrayAsync(imageFile);
+                    blog.ImageType = imageFile.ContentType;
+                }
+                
                 // Specify the DateTime Kind for the incoming Created Date
                 blog.Created = DateTime.UtcNow;
                 _context.Add(blog);
