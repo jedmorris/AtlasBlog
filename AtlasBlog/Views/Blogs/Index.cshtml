@@ -15,55 +15,57 @@
         <a asp-action="Create">Create New</a>
     </p>
 }
-<table class="table">
-    <thead>
-    <tr>
-        <th>
-            @* image  *@
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.BlogName)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Description)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Created)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Updated)
-        </th>
-        <th></th>
-    </tr>
-    </thead>
-    <tbody>
-    @foreach (var item in Model)
-    {
+<div class="col">
+    <table class="table">
+        <thead>
         <tr>
-            <td>
-                <img class="img-thumbnail img-fluid" src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" alt="blog image"/>
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BlogName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Created)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Updated)
-            </td>
-            <td>
-                @if (User.IsInRole("Administrator"))
-                {
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                }
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-            </td>
+            <th>
+                @* image  *@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BlogName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Updated)
+            </th>
+            <th></th>
         </tr>
-    }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img class="img-thumbnail img-fluid" src="@_imageService.ConvertByteArrayToFile(item.ImageData, item.ImageType)" alt="blog image"/>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BlogName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Created)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Updated)
+                </td>
+                <td>
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
