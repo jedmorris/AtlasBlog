@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AtlasBlog.Data;
 using AtlasBlog.Models;
+using AtlasBlog.Services;
 using AtlasBlog.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 
@@ -17,11 +18,13 @@ namespace AtlasBlog.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IImageService _imageService;
+        private readonly SlugService _slugService;
         
-        public BlogsController(ApplicationDbContext context, IImageService imageService)
+        public BlogsController(ApplicationDbContext context, IImageService imageService, SlugService slugService)
         {
             _context = context;
             _imageService = imageService;
+            _slugService = slugService;
         }
 
         // GET: Blogs
