@@ -68,6 +68,22 @@ namespace AtlasBlog.Controllers
         {
             if (ModelState.IsValid)
             {
+                var slug = _slugService.UrlFriendly(blogPost.Title, 100);
+                //Ensure slug is unique before storing in Db
+                var isUnique = !_context.BlogPosts.Any(b => b.Slug == slug);
+                if (isUnique)
+                {
+                    blogPost.Slug = slug;
+                }
+                else
+                {
+                    //throw slug error
+                    ModelState.AddModelError("Title", "Duplicate title. Please select a unique title.");
+                    ModelState.AddModelError("", "Error on page");
+                    ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName", blogPost.BlogId);
+                    return View(blogPost);
+                }
+                
                 blogPost.Created = DateTime.UtcNow;
                 
                 _context.Add(blogPost);
