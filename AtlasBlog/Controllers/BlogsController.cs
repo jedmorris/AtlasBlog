@@ -18,13 +18,11 @@ namespace AtlasBlog.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IImageService _imageService;
-        private readonly SlugService _slugService;
         
-        public BlogsController(ApplicationDbContext context, IImageService imageService, SlugService slugService)
+        public BlogsController(ApplicationDbContext context, IImageService imageService)
         {
             _context = context;
             _imageService = imageService;
-            _slugService = slugService;
         }
 
         // GET: Blogs
