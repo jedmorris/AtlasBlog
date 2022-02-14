@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AtlasBlog.Data;
 using AtlasBlog.Models;
+using AtlasBlog.Services;
 using Microsoft.AspNetCore.Identity;
 
 namespace AtlasBlog.Controllers
@@ -17,7 +18,7 @@ namespace AtlasBlog.Controllers
         private readonly ApplicationDbContext _context;
         private readonly UserManager<BlogUser> _userManager;
 
-        public CommentController(ApplicationDbContext context, UserManager<BlogUser> userManager)
+        public CommentController(ApplicationDbContext context, UserManager<BlogUser> userManager, SlugService slugService)
         {
             _context = context;
             _userManager = userManager;
@@ -63,20 +64,17 @@ namespace AtlasBlog.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BlogPostId,CommentBody")] Comment comment)
+        public async Task<IActionResult> Create([Bind("BlogPostId,CommentBody")] Comment comment, string slug)
         {
             if (ModelState.IsValid)
             {
                 comment.AuthorId = _userManager.GetUserId(User);
                 comment.CreatedDate = DateTime.UtcNow;
-                
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                // return RedirectToAction(nameof(Index));
             }
-            ViewData["AuthorId"] = new SelectList(_context.Users, "Id", "Id", comment.AuthorId);
-            ViewData["BlogPostId"] = new SelectList(_context.BlogPosts, "Id", "Abstract", comment.BlogPostId);
-            return View(comment);
+            return RedirectToAction("Details", "BlogPost", new{slug});
         }
 
         // GET: Comment/Edit/5

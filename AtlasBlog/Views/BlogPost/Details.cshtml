@@ -72,6 +72,7 @@
 {
    //Present a simple form for collecting the comment
     <form asp-controller="Comment" asp-action="Create">
+        <input type="hidden" asp-for="Slug"/>
         <input type="hidden" name="BlogPostId" value="@Model.Id"/>
         <textarea name="CommentBody" class="form-control" rows="10" placeholder="Add Comment Here"></textarea>
         <button class="btn btn-lg btn-dark">Submit</button>
@@ -81,6 +82,8 @@ else
 {
     <a class="nav-link text-dark fw-bold text-black"asp-area="Identity" asp-page="/Account/Login">Please Register/Login to Leave a Comment</a>
 }
+
+@* Display existing comments  foreach(var comment in Model.Comments) *@
 
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
