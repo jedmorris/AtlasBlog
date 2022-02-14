@@ -23,20 +23,20 @@
             @*     @Html.DisplayNameFor(model => model.Slug) *@
             @* </th> *@
             <th>
-                @* image *@
+                Created
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Abstract)
-            </th>
+            @* <th> *@
+            @*     @Html.DisplayNameFor(model => model.Abstract) *@
+            @* </th> *@
             <th>
                 @Html.DisplayNameFor(model => model.BlogPostState)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Body)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Created)
-            </th>
+            @* <th> *@
+            @*     @Html.DisplayNameFor(model => model.Created) *@
+            @* </th> *@
             @* <th> *@
             @*     @Html.DisplayNameFor(model => model.Updated) *@
             @* </th> *@
@@ -52,32 +52,26 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Title)
             </td>
-            @* <td> *@
-            @*     @Html.DisplayFor(modelItem => item.Slug) *@
-            @* </td> *@
             <td>
-                @* image *@
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Abstract)
+                @* @Html.DisplayFor(modelItem => item.Created) *@
+                @item.Created.ToString("MMM dd, yyyy")
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.BlogPostState)
             </td>
             <td>
-                @* @Html.DisplayFor(modelItem => item.Body) *@
-                @Html.Raw(item.Body)
+                @Html.DisplayFor(modelItem => item.Abstract)
             </td>
             <td>
-                @* @Html.DisplayFor(modelItem => item.Created) *@
-                @item.Created.ToString("MMM dd, yyyy")
+                @* @Html.DisplayFor(modelItem => item.Body) *@
+                @Html.Raw(item.Body)
             </td>
             @* <td> *@
             @*     @Html.DisplayFor(modelItem => item.Updated) *@
             @* </td> *@
-            <td>
-                @Html.DisplayFor(modelItem => item.Blog.BlogName)
-            </td>
+            @* <td> *@
+            @*     @Html.DisplayFor(modelItem => item.Blog.BlogName) *@
+            @* </td> *@
             <td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-action="Details" asp-route-slug="@item.Slug">Details</a> |
