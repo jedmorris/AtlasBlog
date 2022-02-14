@@ -1,4 +1,4 @@
-﻿using AtlasBlog.Models;
+using AtlasBlog.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,5 +14,7 @@ public class ApplicationDbContext : IdentityDbContext<BlogUser>
     public DbSet<Blog> Blogs { get; set; }
     
     public DbSet<BlogPost> BlogPosts { get; set; }
+    
+    public DbSet<AtlasBlog.Models.Comment> Comment { get; set; }
 
 }

@@ -38,4 +38,6 @@ public class BlogPost
     // Navigation properties
     public Blog? Blog { get; set; } 
 
+    
+    public ICollection<Comment> Comments { get; set; } = new HashSet<Comment>();
 }
