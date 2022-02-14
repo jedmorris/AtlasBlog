@@ -90,9 +90,12 @@ else
 <div class="row">
     @foreach (var comment in Model.Comments)
     {
-        <div class="col my-2">
+        <div class="col-12 my-2">
             <div class="card border border-dark mb-3 w-100">
-                <div class="card-header">Created by: @comment.Author.FirstName</div>
+                <div class="card-header">
+                    <span class="float-start">Author: @comment.Author.FullName</span>
+                    <span class="float-end">Created on: @comment.CreatedDate.ToString("MMM DD, YYYY")</span>
+                </div>
                 <div class="card-body text-dark">
                     <h5 class="card-title">@comment.CommentBody</h5>
                 </div>
