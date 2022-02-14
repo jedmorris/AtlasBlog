@@ -8,16 +8,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AtlasBlog.Data;
 using AtlasBlog.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace AtlasBlog.Controllers
 {
     public class CommentController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly UserManager<BlogUser> _userManager;
 
-        public CommentController(ApplicationDbContext context)
+        public CommentController(ApplicationDbContext context, UserManager<BlogUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Comment
@@ -60,10 +63,13 @@ namespace AtlasBlog.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,BlogPostId,AuthorId,CommentBody,CreatedDate,UpdatedDate,IsDeleted")] Comment comment)
+        public async Task<IActionResult> Create([Bind("BlogPostId,CommentBody")] Comment comment)
         {
             if (ModelState.IsValid)
             {
+                comment.AuthorId = _userManager.GetUserId(User);
+                comment.CreatedDate = DateTime.UtcNow;
+                
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
