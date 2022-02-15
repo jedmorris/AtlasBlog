@@ -34,9 +34,27 @@ namespace AtlasBlog.Controllers
         }
 
         // GET: BlogPost/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // public async Task<IActionResult> Details(int? id)
+        // {
+        //     if (id == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //
+        //     var blogPost = await _context.BlogPosts
+        //         .Include(b => b.Blog)
+        //         .Include(c => c.Comments)
+        //         .FirstOrDefaultAsync(m => m.Id == id);
+        //     if (blogPost == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //
+        //     return View(blogPost);
+        // }
+        public async Task<IActionResult> Details(string slug)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(slug))
             {
                 return NotFound();
             }
@@ -45,7 +63,8 @@ namespace AtlasBlog.Controllers
                 .Include(b => b.Blog)
                 .Include(c => c.Comments)
                 .ThenInclude(c => c.Author)
-                .FirstOrDefaultAsync(m => m.Id == id);
+                .FirstOrDefaultAsync(m => m.Slug == slug);
+
             if (blogPost == null)
             {
                 return NotFound();

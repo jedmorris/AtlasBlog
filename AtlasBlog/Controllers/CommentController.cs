@@ -74,7 +74,7 @@ namespace AtlasBlog.Controllers
                 await _context.SaveChangesAsync();
                 // return RedirectToAction(nameof(Index));
             }
-            return RedirectToAction("Details", "BlogPost", new{slug});
+            return RedirectToAction("Details", "BlogPost", new{slug}, "CommentSection");
         }
 
         // GET: Comment/Edit/5
