@@ -83,7 +83,7 @@
     }
     else
     {
-        <a class="nav-link text-dark fw-bold text-black"asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.">Please Register/Login to Leave a Comment</a>
+        <a class="nav-link text-dark fw-bold text-black"asp-area="Identity" asp-page="/Account/Login" asp-route-returnUrl="@Url.Action("Details", "BlogPost", new {slug = Model.Slug})">Please Register/Login to Leave a Comment</a>
     }
 
     <div class="row p-3">
