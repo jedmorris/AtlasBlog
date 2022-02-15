@@ -124,23 +124,6 @@
             }
         </div>
     </div>
-    @* <div class="row p-3"> *@
-    @*     @foreach (var comment in Model.Comments.OrderByDescending(c => c.CreatedDate)) *@
-    @*     { *@
-    @*         <div class="col-12 my-2"> *@
-    @*             <div class="card border border-dark mb-3 w-100"> *@
-    @*                 <div class="card-header"> *@
-    @*                     <span class="float-start">Author: @comment.Author.FullName</span> *@
-    @*                     <span class="float-end">Created on: @comment.CreatedDate.ToString("MMM DD, YYYY")</span> *@
-    @*                 </div> *@
-    @*                 <div class="card-body text-dark"> *@
-    @*                     <h5 class="card-title">@comment.CommentBody</h5> *@
-    @*                 </div> *@
-    @*                 <div class="card-footer">Posted on: @comment.CreatedDate.ToString("MMM dd, yyyy")</div> *@
-    @*             </div> *@
-    @*         </div> *@
-    @*     } *@
-    @* </div> *@
 </div>
 
 
@@ -188,8 +171,10 @@
     <script>
         document.querySelectorAll("button.btnModal").forEach(btn => {
             btn.addEventListener("click", function(){
+                
                //Thing 1: Get the Id of the comment into the Modal
                document.getElementById('modalCommentId').value = this.getAttribute('data-commentId');
+               
                //Thing 2: Get the CommentBody into the modal
                let parent = this.closest("div.targetParent");
                let child = parent.querySelector("div.targetChild h5");
