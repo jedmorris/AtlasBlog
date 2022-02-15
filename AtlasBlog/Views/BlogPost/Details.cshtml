@@ -182,3 +182,18 @@
     <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
     <a asp-action="Index">Back to List</a>
 </div>
+
+@section Scripts {
+    
+    <script>
+        document.querySelectorAll("button.btnModal").forEach(btn => {
+            btn.addEventListener("click", function(){
+               //Thing 1: Get the Id of the comment into the Modal
+               document.getElementById('modalCommentId').value = this.getAttribute('data-commentId');
+               //Thing 2: Get the CommentBody into the modal
+               let parent = this.closest("div.targetParent");
+               let child = parent.querySelector("div.targetChild h5");
+               document.getElementById('modalCommentBody').innerText = child.innerText;               
+            }); 
+        });   
+    </script>
