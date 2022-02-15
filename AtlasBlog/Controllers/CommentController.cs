@@ -51,13 +51,6 @@ namespace AtlasBlog.Controllers
             return View(comment);
         }
 
-        // GET: Comment/Create
-        public IActionResult Create()
-        {
-            ViewData["AuthorId"] = new SelectList(_context.Users, "Id", "Id");
-            ViewData["BlogPostId"] = new SelectList(_context.BlogPosts, "Id", "Abstract");
-            return View();
-        }
 
         // POST: Comment/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
@@ -69,32 +62,30 @@ namespace AtlasBlog.Controllers
             if (ModelState.IsValid)
             {
                 comment.AuthorId = _userManager.GetUserId(User);
-                comment.CreatedDate = DateTime.UtcNow;
                 _context.Add(comment);
                 await _context.SaveChangesAsync();
-                // return RedirectToAction(nameof(Index));
             }
             return RedirectToAction("Details", "BlogPost", new{slug}, "CommentSection");
         }
 
         // GET: Comment/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var comment = await _context.Comment.FindAsync(id);
-            if (comment == null)
-            {
-                return NotFound();
-            }
-            ViewData["AuthorId"] = new SelectList(_context.Users, "Id", "Id", comment.AuthorId);
-            ViewData["BlogPostId"] = new SelectList(_context.BlogPosts, "Id", "Abstract", comment.BlogPostId);
-            return View(comment);
-        }
-
+        // public async Task<IActionResult> Edit(int? id)
+        // {
+        //     if (id == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //
+        //     var comment = await _context.Comment.FindAsync(id);
+        //     if (comment == null)
+        //     {
+        //         return NotFound();
+        //     }
+        //     ViewData["AuthorId"] = new SelectList(_context.Users, "Id", "Id", comment.AuthorId);
+        //     ViewData["BlogPostId"] = new SelectList(_context.BlogPosts, "Id", "Abstract", comment.BlogPostId);
+        //     return View(comment);
+        // }
+        
         // POST: Comment/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
