@@ -168,6 +168,7 @@
 <form name="frmDeleteComment" asp-action="Delete" asp-controller="Comment">
     <input type="hidden" name="Id" id="deleteCommentId"/>
 </form>
+
 @section Scripts {
 
     <script>
@@ -175,28 +176,35 @@
         document.querySelectorAll("button.btnSwal").forEach(btn => {
             btn.addEventListener("click", function(){
                 document.getElementById("deleteCommentId").value = this.getAttribute('data-CommentId');
-                document.frmDeleteComment.submit();
-                
-                // Swal.fire({
-                //     title: 'Are you sure?',
-                //     text: "You won't be able to revert this!",
-                //     icon: 'warning',
-                //     showCancelButton: true,
-                //     confirmButtonColor: '#212121',
-                //     cancelButtonColor: '#ff993b',
-                //     confirmButtonText: 'Yes, delete it!'
-                // }).then((result) => {
-                // if (result.isConfirmed) {
-                //    
-                // Swal.fire(
-                //     'Deleted!',
-                //     'Your file has been deleted.',
-                //        'success'
-                //     )
-                // }
-            // })     
-        })
-    });
+                DeleteComment();
+            });
+        });
+        
+        function DeleteComment(){
+            
+                Swal.fire({
+                  title: 'Are you sure?',
+                  text: "You won't be able to revert this!",
+                  icon: 'warning',
+                  showCancelButton: true,
+                  confirmButtonColor: '#3085d6',
+                  cancelButtonColor: '#d33',
+                }).then((result) => {
+                  if (result.isConfirmed) {
+                      
+                    Swal.fire({
+                      title: 'Deleted!',
+                      text: 'Your comment has been deleted.',
+                      icon: 'success',
+                      showConfirmButton: false
+                    })
+                    
+                    setTimeout(function (){
+                        document.frmDeleteComment.submit();
+                    }, 3000);
+                }
+            })
+        }
               
           
     
