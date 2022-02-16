@@ -113,7 +113,7 @@
                                         <button class="btnModal btn btn-dark btn-sm w-100" data-commentId=@comment.Id data-bs-toggle="modal" data-bs-target="#editCommentModal">EDIT</button>
                                     </div>
                                     <div class="col">
-                                        <button class="btnSwal btn btn-danger btn-sm w-100 ">DELETE</button>
+                                        <button class="btnSwal btn btn-danger btn-sm w-100 " data-commentId=@comment.Id>DELETE</button>
                                     </div>
                                 </div>
                             </div>
@@ -164,30 +164,37 @@
     <a asp-action="Index">Back to List</a>
 </div>
 
+
+<form name="frmDeleteComment" asp-action="Delete" asp-controller="Comment">
+    <input type="hidden" name="Id" id="deleteCommentId"/>
+</form>
 @section Scripts {
 
     <script>
         
         document.querySelectorAll("button.btnSwal").forEach(btn => {
             btn.addEventListener("click", function(){
-                Swal.fire({
-                    title: 'Are you sure?',
-                    text: "You won't be able to revert this!",
-                    icon: 'warning',
-                    showCancelButton: true,
-                    confirmButtonColor: '#212121',
-                    cancelButtonColor: '#ff993b',
-                    confirmButtonText: 'Yes, delete it!'
-                }).then((result) => {
-                if (result.isConfirmed) {
-                    
-                Swal.fire(
-                    'Deleted!',
-                    'Your file has been deleted.',
-                       'success'
-                    )
-                }
-            })     
+                document.getElementById("deleteCommentId").value = this.getAttribute('data-CommentId');
+                document.frmDeleteComment.submit();
+                
+                // Swal.fire({
+                //     title: 'Are you sure?',
+                //     text: "You won't be able to revert this!",
+                //     icon: 'warning',
+                //     showCancelButton: true,
+                //     confirmButtonColor: '#212121',
+                //     cancelButtonColor: '#ff993b',
+                //     confirmButtonText: 'Yes, delete it!'
+                // }).then((result) => {
+                // if (result.isConfirmed) {
+                //    
+                // Swal.fire(
+                //     'Deleted!',
+                //     'Your file has been deleted.',
+                //        'success'
+                //     )
+                // }
+            // })     
         })
     });
               
