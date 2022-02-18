@@ -19,7 +19,7 @@ public class Comment
     public bool IsDeleted { get; set; }
     
     public DateTime? ModeratedDate { get; set; }
-    public ModerationReason ModerationReason { get; set; }
+    // public ModerationReason ModerationReason { get; set; }
     public string? ModerateBody { get; set; }
     
     //Nav property that is "lazy loaded"
