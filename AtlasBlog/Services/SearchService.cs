@@ -12,7 +12,7 @@ public class SearchService
         _dbContext = dbContext;
     }
 
-    public IQueryable<BlogPost> TermSearch(string searchTerm)
+    public IOrderedQueryable<BlogPost> TermSearch(string searchTerm)
     {
         var resultSet = _dbContext.BlogPosts
             .Where(b => b.BlogPostState == Enums.BlogPostState.ProductionReady && !b.IsDeleted).AsQueryable();

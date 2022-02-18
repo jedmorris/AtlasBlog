@@ -10,6 +10,7 @@ using AtlasBlog.Data;
 using AtlasBlog.Models;
 using AtlasBlog.Services;
 using AtlasBlog.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AtlasBlog.Controllers
 {
@@ -18,12 +19,14 @@ namespace AtlasBlog.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IImageService _imageService;
         private readonly SlugService _slugService;
+        private readonly SearchService _searchService;
 
-        public BlogPostController(ApplicationDbContext context, IImageService imageService, SlugService slugService)
+        public BlogPostController(ApplicationDbContext context, IImageService imageService, SlugService slugService, SearchService searchService)
         {
             _context = context;
             _imageService = imageService;
             _slugService = slugService;
+            _searchService = searchService;
         }
 
         // GET: BlogPost
@@ -33,25 +36,19 @@ namespace AtlasBlog.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // GET: BlogPost/Details/5
-        // public async Task<IActionResult> Details(int? id)
-        // {
-        //     if (id == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     var blogPost = await _context.BlogPosts
-        //         .Include(b => b.Blog)
-        //         .Include(c => c.Comments)
-        //         .FirstOrDefaultAsync(m => m.Id == id);
-        //     if (blogPost == null)
-        //     {
-        //         return NotFound();
-        //     }
-        //
-        //     return View(blogPost);
-        // }
+        [AllowAnonymous]
+        public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
+        {
+            pageNum ??= 1;
+            var pageSize = 5;
+
+            var posts = _searchService.TermSearch(searchTerm);
+            var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+
+            ViewData["SearchTerm"] = searchTerm;
+            return View(pagedPosts);
+        }
+
         public async Task<IActionResult> Details(string slug)
         {
             if (string.IsNullOrEmpty(slug))
