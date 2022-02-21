@@ -21,7 +21,7 @@ public class Comment
     // Moderator properties
     public DateTime? ModeratedDate { get; set; }
     public ModerationReason ModerationReason { get; set; }
-    public string? ModerateBody { get; set; }
+    public string? ModeratedBody { get; set; }
     
     //Nav property that is "lazy loaded"
     public virtual BlogPost? BlogPost { get; set; } 

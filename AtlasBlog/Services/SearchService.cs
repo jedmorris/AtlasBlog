@@ -29,7 +29,7 @@ public class SearchService
                          c.Author!.FirstName.ToLower().Contains(searchTerm) ||
                          c.Author.LastName.ToLower().Contains(searchTerm) ||
                          c.Author.Email.ToLower().Contains(searchTerm) ||
-                         c.ModerateBody!.ToLower().Contains(searchTerm)));
+                         c.ModeratedBody!.ToLower().Contains(searchTerm)));
         }
 
         return resultSet.OrderByDescending(r => r.Created);

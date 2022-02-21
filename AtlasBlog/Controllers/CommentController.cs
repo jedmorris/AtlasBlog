@@ -122,7 +122,7 @@ namespace AtlasBlog.Controllers
             try
             {
                 //var commentSnapShot = await _context.Comments.FindAsync(comment.Id);
-                commentSnapShot = await _context.Comments
+                commentSnapShot = await _context.Comment
                     .Include(c => c.BlogPost)
                     .FirstOrDefaultAsync(c => c.Id == comment.Id);
 
