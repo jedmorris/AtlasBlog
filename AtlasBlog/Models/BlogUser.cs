@@ -12,8 +12,9 @@ public class BlogUser : IdentityUser
     [NotMapped]
     public string FullName
     {
-        get { return $"{LastName}, {FirstName}"; }
+        get
+        {
+            return $"{LastName}, {FirstName}";
+        }
     }
-
-    public ICollection<Comment> Comments { get; set; } = new HashSet<Comment>();
 }
