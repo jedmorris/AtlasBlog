@@ -36,18 +36,19 @@ namespace AtlasBlog.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        [AllowAnonymous]
-        public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
-        {
-            pageNum ??= 1;
-            var pageSize = 5;
-
-            var posts = _searchService.TermSearch(searchTerm);
-            // var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
-
-            ViewData["SearchTerm"] = searchTerm;
-            return View(pagedPosts);
-        }
+        // UNCOMMENT FOR PAGING!!!
+        // [AllowAnonymous]
+        // public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
+        // {
+        //     pageNum ??= 1;
+        //     var pageSize = 5;
+        //
+        //     var posts = _searchService.TermSearch(searchTerm);
+        //     // var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+        //
+        //     ViewData["SearchTerm"] = searchTerm;
+        //     return View(pagedPosts);
+        // }
 
         public async Task<IActionResult> Details(string slug)
         {

@@ -17,9 +17,10 @@ public class Comment
     public DateTime UpdatedDate { get; set; }
 
     public bool IsDeleted { get; set; }
-    
+
+    // Moderator properties
     public DateTime? ModeratedDate { get; set; }
-    // public ModerationReason ModerationReason { get; set; }
+    public ModerationReason ModerationReason { get; set; }
     public string? ModerateBody { get; set; }
     
     //Nav property that is "lazy loaded"
