@@ -30,25 +30,32 @@ namespace AtlasBlog.Controllers
         }
 
         // GET: BlogPost
+        public async Task<IActionResult> BlogChildIndex(int blogId)
+        {
+            var children = await _context.BlogPosts.Include(b => b.Blog)
+                .Where(b => b.BlogId == blogId)
+                .ToListAsync();
+            return View("Index", children);
+        }
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.BlogPosts.Include(b => b.Blog);
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // UNCOMMENT FOR PAGING!!!
-        // [AllowAnonymous]
-        // public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
-        // {
-        //     pageNum ??= 1;
-        //     var pageSize = 5;
-        //
-        //     var posts = _searchService.TermSearch(searchTerm);
-        //     // var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
-        //
-        //     ViewData["SearchTerm"] = searchTerm;
-        //     return View(pagedPosts);
-        // }
+        [AllowAnonymous]
+        public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
+        {
+            pageNum ??= 1;
+            var pageSize = 2;
+        
+            // SearchService gets all BlogPosts that contain searchTerm
+            var posts = _searchService.TermSearch(searchTerm);
+            var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+        
+            ViewData["SearchTerm"] = searchTerm;
+            return View(pagedPosts);
+        }
 
         public async Task<IActionResult> Details(string slug)
         {
@@ -75,6 +82,7 @@ namespace AtlasBlog.Controllers
         public IActionResult Create()
         {
             ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName");
+            ViewData["TagIds"] = new MultiSelectList(_context.Tags, "Id", "Text");
             return View();
         }
 
@@ -83,11 +91,12 @@ namespace AtlasBlog.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("BlogId,Title,Abstract,BlogPostState,Body")] BlogPost blogPost)
+        public async Task<IActionResult> Create([Bind("BlogId,Title,Abstract,BlogPostState,Body")] BlogPost blogPost, List<int> tagIds)
         {
             if (ModelState.IsValid)
             {
                 var slug = _slugService.UrlFriendly(blogPost.Title, 100);
+                
                 //Ensure slug is unique before storing in Db
                 var isUnique = !_context.BlogPosts.Any(b => b.Slug == slug);
                 if (isUnique)
@@ -101,6 +110,16 @@ namespace AtlasBlog.Controllers
                     ModelState.AddModelError("", "Error on page");
                     ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName", blogPost.BlogId);
                     return View(blogPost);
+                }
+
+                // Add relevant tags
+                if (tagIds.Count > 0)
+                {
+                    var tags = _context.Tags;
+                    foreach (var tagId in tagIds)
+                    {
+                        blogPost.Tags.Add(await tags.FindAsync(tagId));
+                    }
                 }
                 
                 blogPost.Created = DateTime.UtcNow;
@@ -121,12 +140,19 @@ namespace AtlasBlog.Controllers
                 return NotFound();
             }
 
-            var blogPost = await _context.BlogPosts.FindAsync(id);
+            var blogPost = await _context.BlogPosts
+                .Include("Tags")
+                .FirstOrDefaultAsync(b => b.Id == id);
+
+            var tagIds = await blogPost.Tags.Select(b => b.Id).ToListAsync();
+            
             if (blogPost == null)
             {
                 return NotFound();
             }
             ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName", blogPost.BlogId);
+            ViewData["TagIds"] = new MultiSelectList(_context.Tags, "Id", "Text", tagIds);
+            
             return View(blogPost);
         }
 
@@ -135,7 +161,7 @@ namespace AtlasBlog.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,BlogId,Slug,Title,Slug,IsDeleted,Abstract,BlogPostState,Body,Created")] BlogPost blogPost)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,BlogId,Slug,Title,IsDeleted,Abstract,BlogPostState,Body,Created")] BlogPost blogPost, List<int> tagIds) 
         {
             if (id != blogPost.Id)
             {
@@ -146,8 +172,49 @@ namespace AtlasBlog.Controllers
             {
                 try
                 {
+                    // Check to see if the slug has changed
+                    var slug = _slugService.UrlFriendly(blogPost.Title, 100);
+                    if (blogPost.Slug != slug)
+                    {
+                        // Check to ensure slug is unique before storing in DbContext
+                        var isUnique = !_context.BlogPosts.Any(b => b.Slug == slug);
+                        if (isUnique)
+                        {
+                            blogPost.Slug = slug;
+                        }
+                        else
+                        {
+                            // Display error for duplicate slug
+                            ModelState.AddModelError("Title", "This Title cannot be used (duplicate Slug)");
+                            ModelState.AddModelError("", "Title cannot be used");
+                            ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName", blogPost.BlogId);
+                            return View(blogPost);
+                        }
+                    }
+                    
+                    blogPost.Updated = DateTime.UtcNow;
                     blogPost.Created = DateTime.SpecifyKind(blogPost.Created, DateTimeKind.Utc);
+
                     _context.Update(blogPost);
+                    await _context.SaveChangesAsync();
+                    
+                    // Tag Management
+                    var currentBlogPost = await _context.BlogPosts
+                        .Include("Tags")
+                        .FirstOrDefaultAsync(b => b.Id == blogPost.Id);
+                    
+                    currentBlogPost.Tags.Clear();
+
+                    var tags = _context.Tags;
+
+                    if (tagIds.Count > 0)
+                    {
+                        foreach (var tagId in tagIds)
+                        {
+                            blogPost.Tags.Add(await tags.FindAsync(tagId));
+                        }
+                    }
+
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
