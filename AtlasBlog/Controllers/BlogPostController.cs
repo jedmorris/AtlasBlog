@@ -11,6 +11,8 @@ using AtlasBlog.Models;
 using AtlasBlog.Services;
 using AtlasBlog.Services.Interfaces;
 using Microsoft.AspNetCore.Authorization;
+using X.PagedList;
+
 
 namespace AtlasBlog.Controllers
 {
@@ -37,25 +39,26 @@ namespace AtlasBlog.Controllers
                 .ToListAsync();
             return View("Index", children);
         }
+        
         public async Task<IActionResult> Index()
         {
             var applicationDbContext = _context.BlogPosts.Include(b => b.Blog);
             return View(await applicationDbContext.ToListAsync());
         }
 
-        [AllowAnonymous]
-        public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
-        {
-            pageNum ??= 1;
-            var pageSize = 2;
-        
-            // SearchService gets all BlogPosts that contain searchTerm
-            var posts = _searchService.TermSearch(searchTerm);
-            var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
-        
-            ViewData["SearchTerm"] = searchTerm;
-            return View(pagedPosts);
-        }
+        // [AllowAnonymous]
+        // public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
+        // {
+        //     pageNum ??= 1;
+        //     var pageSize = 2;
+        //
+        //     // SearchService gets all BlogPosts that contain searchTerm
+        //     var posts = _searchService.TermSearch(searchTerm);
+        //     var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+        //
+        //     ViewData["SearchTerm"] = searchTerm;
+        //     return View(pagedPosts);
+        // }
 
         public async Task<IActionResult> Details(string slug)
         {
