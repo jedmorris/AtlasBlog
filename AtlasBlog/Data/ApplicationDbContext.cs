@@ -15,6 +15,7 @@ public class ApplicationDbContext : IdentityDbContext<BlogUser>
     
     public DbSet<BlogPost> BlogPosts { get; set; }
     
-    public DbSet<AtlasBlog.Models.Comment> Comment { get; set; }
+    public DbSet<Comment> Comment { get; set; }
 
+    public DbSet<Tag> Tags { get; set; }
 }

@@ -43,7 +43,7 @@ namespace AtlasBlog.Controllers
             var pageSize = 5;
 
             var posts = _searchService.TermSearch(searchTerm);
-            var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+            // var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
 
             ViewData["SearchTerm"] = searchTerm;
             return View(pagedPosts);
