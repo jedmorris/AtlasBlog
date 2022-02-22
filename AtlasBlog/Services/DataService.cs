@@ -63,7 +63,7 @@ public class DataService
          if (newUser is null)
          {
             var adminPassword = _configuration["DataService:AdminPassword"];
-            await _userManager.CreateAsync(user, _configuration["DataService:AdminPassword"]);
+            await _userManager.CreateAsync(user, adminPassword);
             await _userManager.AddToRoleAsync(user, "Administrator");
          }
          
@@ -82,7 +82,7 @@ public class DataService
          if (newUser is null)
          {
             var modPassword = _configuration["DataService:ModPassword"];
-            await _userManager.CreateAsync(user, _configuration["DataService:AdminPassword"]);
+            await _userManager.CreateAsync(user, _configuration["DataService:ModPassword"]);
             await _userManager.AddToRoleAsync(user, "Moderator");
          }
       }
