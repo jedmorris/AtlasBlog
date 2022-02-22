@@ -3,7 +3,6 @@
 
 @{
     ViewData["Title"] = "Create";
-    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Create</h1>
@@ -12,53 +11,43 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form id="frmCreate" asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
             <div class="form-group">
                 <label asp-for="BlogId" class="control-label"></label>
-                <select asp-for="BlogId" class ="form-control" asp-items="ViewBag.BlogId"></select>
+                <select asp-for="BlogId" class="form-control" asp-items="ViewBag.BlogId"></select>
             </div>
+
             <div class="form-group">
                 <label asp-for="Title" class="control-label"></label>
                 <input asp-for="Title" class="form-control" />
                 <span asp-validation-for="Title" class="text-danger"></span>
             </div>
-            @* <div class="form-group"> *@
-            @*     <label asp-for="Slug" class="control-label"></label> *@
-            @*     <input asp-for="Slug" class="form-control" /> *@
-            @*     <span asp-validation-for="Slug" class="text-danger"></span> *@
-            @* </div> *@
-            @* <div class="form-group form-check"> *@
-            @*     <label class="form-check-label"> *@
-            @*         <input class="form-check-input" asp-for="IsDeleted" /> @Html.DisplayNameFor(model => model.IsDeleted) *@
-            @*     </label> *@
-            @* </div> *@
+
             <div class="form-group">
                 <label asp-for="Abstract" class="control-label"></label>
                 <input asp-for="Abstract" class="form-control" />
                 <span asp-validation-for="Abstract" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="BlogPostState" class="control-label"></label>
-                @* <select asp-for="BlogPostState" class="form-control"></select> *@
                 <select asp-for="BlogPostState" class="form-control" asp-items="@Html.GetEnumSelectList<BlogPostState>()"></select>
                 <span asp-validation-for="BlogPostState" class="text-danger"></span>
             </div>
+
             <div class="form-group">
                 <label asp-for="Body" class="control-label"></label>
-                <textarea asp-for="Body" id="summernote" class="form-control" rows="10"></textarea>
-                <span asp-validation-for="Body" class="text-danger"></span>
+                <div id="editor"></div>
+                <input asp-for="Body" type="hidden" />
             </div>
-            @* <div class="form-group"> *@
-            @*     <label asp-for="Created" class="control-label"></label> *@
-            @*     <input asp-for="Created" class="form-control" /> *@
-            @*     <span asp-validation-for="Created" class="text-danger"></span> *@
-            @* </div> *@
-            @* <div class="form-group"> *@
-            @*     <label asp-for="Updated" class="control-label"></label> *@
-            @*     <input asp-for="Updated" class="form-control" /> *@
-            @*     <span asp-validation-for="Updated" class="text-danger"></span> *@
-            @* </div> *@
+
+            <div class="form-group">
+                <label for="TagIds" class="control-label">Tag(s)</label>
+                <select class="form-select" id="TagIds" name="TagIds" asp-items="@ViewBag.TagIds" multiple></select>          
+            </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -71,5 +60,9 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+     <script>    
+        document.getElementById('frmCreate').addEventListener("submit", function() {
+            document.getElementById('Body').value = quill.container.firstChild.innerHTML;           
+        });
+    </script>
 }
