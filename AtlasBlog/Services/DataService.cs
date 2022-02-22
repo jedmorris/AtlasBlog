@@ -11,12 +11,14 @@ public class DataService
    private readonly ApplicationDbContext _context;
    private readonly RoleManager<IdentityRole> _roleManager;
    private readonly UserManager<BlogUser> _userManager;
+   private readonly IConfiguration _configuration;
 
-   public DataService(ApplicationDbContext context, RoleManager<IdentityRole> roleManager, UserManager<BlogUser> userManager)
+   public DataService(ApplicationDbContext context, RoleManager<IdentityRole> roleManager, UserManager<BlogUser> userManager, IConfiguration configuration)
    {
       _context = context;
       _roleManager = roleManager;
       _userManager = userManager;
+      _configuration = configuration;
    }
 
    public async Task SetupDbAsync()
@@ -60,7 +62,8 @@ public class DataService
          var newUser = await _userManager.FindByEmailAsync(user.Email);
          if (newUser is null)
          {
-            await _userManager.CreateAsync(user, "1qazxsw2!QAZXSW@");
+            var adminPassword = _configuration["DataService:AdminPassword"];
+            await _userManager.CreateAsync(user, _configuration["DataService:AdminPassword"]);
             await _userManager.AddToRoleAsync(user, "Administrator");
          }
          
@@ -78,7 +81,8 @@ public class DataService
          newUser = await _userManager.FindByEmailAsync(user.Email);
          if (newUser is null)
          {
-            await _userManager.CreateAsync(user, "1qazxsw2!QAZXSW@");
+            var modPassword = _configuration["DataService:ModPassword"];
+            await _userManager.CreateAsync(user, _configuration["DataService:AdminPassword"]);
             await _userManager.AddToRoleAsync(user, "Moderator");
          }
       }
