@@ -54,7 +54,7 @@ public class DataService
             Email = "sloth@admin.com",
             FirstName = "Jed",
             LastName = "Morris",
-            DisplayName = "slothmanking",
+            DisplayName = "Sloth Admin",
             PhoneNumber = "6199779546",
             EmailConfirmed = true
          };
@@ -69,11 +69,11 @@ public class DataService
          
          user = new()
          {
-            UserName = "sloth@moderator.com",
-            Email = "sloth@moderator.com",
+            UserName = "sloth@mod.com",
+            Email = "sloth@mod.com",
             FirstName = "Jed",
             LastName = "Morris",
-            DisplayName = "slothmanking",
+            DisplayName = "Sloth Moderator",
             PhoneNumber = "6199779546",
             EmailConfirmed = true
          };
