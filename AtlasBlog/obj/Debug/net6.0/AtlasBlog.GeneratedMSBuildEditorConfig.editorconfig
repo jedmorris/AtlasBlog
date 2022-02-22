@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Db25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
