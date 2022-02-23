@@ -26,4 +26,8 @@
         <PackageReference Include="X.PagedList" Version="8.1.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\img\headshots" />
+    </ItemGroup>
+
 </Project>

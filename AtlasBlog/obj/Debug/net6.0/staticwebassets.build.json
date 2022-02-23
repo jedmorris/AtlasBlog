@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "dF6i9BE9x29JZtMinbp0BZ/GgbQyFmBKQfy3Y0c4Iec=",
+  "Hash": "ArqKVvKWAS5xevbtv+LEMBvK7DA3etSGrnImSSU3SKI=",
   "Source": "AtlasBlog",
   "BasePath": "_content/AtlasBlog",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/headshots/IMG_4924.PNG",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/headshots/IMG_4924.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/headshots/IMG_4924.PNG"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/site.js",
