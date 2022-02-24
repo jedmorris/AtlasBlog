@@ -28,7 +28,6 @@
 
     <ItemGroup>
       <Folder Include="wwwroot\img\headshots" />
-      <Folder Include="wwwroot\js" />
     </ItemGroup>
 
 </Project>

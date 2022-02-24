@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Z/0e016mPg1SPcULp6Hue6szi91Vc45a6CxnN6b/pbM=",
+  "Hash": "aQQNwVy+5231WVapIqk8oD9NYw4I7SzxQq0t+e/CQcc=",
   "Source": "AtlasBlog",
   "BasePath": "_content/AtlasBlog",
   "Mode": "Default",
@@ -7004,6 +7004,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/typedjs.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/script.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/script.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/soft-design-system-pro.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -7053,6 +7070,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/soft-design-system-pro.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/summernote.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/summernote.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/summernote.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
@@ -8022,40 +8056,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
-    },
-    {
-      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/oldJS/site 2.js",
-      "SourceId": "AtlasBlog",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
-      "BasePath": "_content/AtlasBlog",
-      "RelativePath": "oldJS/site 2.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/oldJS/site 2.js"
-    },
-    {
-      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/oldJS/site.js",
-      "SourceId": "AtlasBlog",
-      "SourceType": "Discovered",
-      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
-      "BasePath": "_content/AtlasBlog",
-      "RelativePath": "oldJS/site.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/oldJS/site.js"
     }
   ]
 }
