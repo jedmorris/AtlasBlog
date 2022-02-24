@@ -31,32 +31,36 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">The Atlas Blog</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    @* <li class="nav-item"> *@
-                    @*     <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a> *@
-                    @* </li> *@
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Blogs" asp-action="Index">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="BlogPost" asp-action="Index">Blog Posts</a>
-                    </li>
-                </ul>
-                
-                <partial name="_LoginPartial"/>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-gradient-dark z-index-3 py-3">
+      <div class="container">
+        <a class="navbar-brand text-white" href="https://demos.creative-tim.com/soft-ui-design-system-pro/presentation.html" rel="tooltip" title="Designed and Coded by Creative Tim" data-placement="bottom" target="_blank">
+          The Tech Sergeant
+        </a>
+        <a href="https://www.creative-tim.com/product/soft-ui-design-system-pro#pricingCard" class="btn btn-sm  bg-gradient-primary  btn-round mb-0 ms-auto d-lg-none d-block">Buy Now</a>
+        <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon mt-2">
+            <span class="navbar-toggler-bar bar1"></span>
+            <span class="navbar-toggler-bar bar2"></span>
+            <span class="navbar-toggler-bar bar3"></span>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse w-100 pt-3 pb-2 py-lg-0" id="navigation">
+            <ul class="navbar-nav navbar-nav-hover mx-auto">
+                <li class="nav-item mx-2">
+                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+    
+                <li class="nav-item mx-2">
+                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" asp-area="" asp-controller="Blogs" asp-action="Index">Blogs</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link ps-2 d-flex justify-content-between cursor-pointer align-items-center" asp-area="" asp-controller="BlogPost" asp-action="Index">Blog Posts</a>
+                </li>
+            </ul>
+            <partial name="_LoginPartial"/>
         </div>
+      </div>
     </nav>
 </header>
 <div class="container">
