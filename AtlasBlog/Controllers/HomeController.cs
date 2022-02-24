@@ -17,7 +17,7 @@ public class HomeController : Controller
         _context = context;
     }
 
-    public IActionResult Index(int? pageNum)
+    public async Task<IActionResult> Index(int? pageNum)
     {
         pageNum ??= 1;
         
