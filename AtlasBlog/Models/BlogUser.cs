@@ -10,6 +10,15 @@ public class BlogUser : IdentityUser
     public string? DisplayName { get; set; }
 
     [NotMapped]
+    public string FormalName
+    {
+        get
+        {
+            return $"{LastName}, {FirstName}";
+        }
+    }
+    
+    [NotMapped]
     public string FullName
     {
         get

@@ -37,6 +37,7 @@ namespace AtlasBlog.Controllers
             var children = await _context.BlogPosts.Include(b => b.Blog)
                 .Where(b => b.BlogId == blogId)
                 .ToListAsync();
+            
             return View("Index", children);
         }
         
@@ -46,19 +47,19 @@ namespace AtlasBlog.Controllers
             return View(await applicationDbContext.ToListAsync());
         }
 
-        // [AllowAnonymous]
-        // public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
-        // {
-        //     pageNum ??= 1;
-        //     var pageSize = 2;
-        //
-        //     // SearchService gets all BlogPosts that contain searchTerm
-        //     var posts = _searchService.TermSearch(searchTerm);
-        //     var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
-        //
-        //     ViewData["SearchTerm"] = searchTerm;
-        //     return View(pagedPosts);
-        // }
+        [AllowAnonymous]
+        public async Task<IActionResult> SearchIndex(int? pageNum, string searchTerm)
+        {
+            pageNum ??= 1;
+            var pageSize = 2;
+        
+            // SearchService gets all BlogPosts that contain searchTerm
+            var posts = _searchService.TermSearch(searchTerm);
+            var pagedPosts = await posts.ToPagedListAsync(pageNum, pageSize);
+        
+            ViewData["SearchTerm"] = searchTerm;
+            return View(pagedPosts);
+        }
 
         public async Task<IActionResult> Details(string slug)
         {

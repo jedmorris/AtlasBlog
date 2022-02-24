@@ -1,0 +1,46 @@
+@using AtlasBlog.Services.Interfaces
+@using X.PagedList
+@using X.PagedList.Mvc.Core
+@using X.PagedList.Web.Common
+
+@inject IImageService _imageService
+
+@model IPagedList<BlogPost>
+
+<div class="row row-cols-1 row-cols-md-3 g-2">
+    @foreach (var blogPost in Model)
+    {
+        <div class="col">
+            <div class="card h-100">
+                @* <img src="..." class="card-img-top" alt="...">*@
+                <div class="card-body">
+                    <h6 class="card-title">@blogPost.Title</h6>
+                    <p class="card-text h6">@blogPost.Abstract</p>
+                    <h6 class="card-title text-muted fst-italic">Created: @blogPost.Created.ToString("MMM dd, yyyy")</h6> 
+                </div>
+                <div class="card-footer">
+                    <a asp-action="Details" asp-controller="BlogPost" asp-route-slug="@blogPost.Slug" class="btn-primary btn-sm btn-warning btn-outline-dark w-100 fw-bold">Read BlogPost</a>                 
+                </div>
+            </div>
+        </div>             
+    }
+</div>
+
+<hr />
+
+<div class="row">
+    <div class="col h3">
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        @Html.PagedListPager(Model, pageNum => Url.Action("SearchIndex", new { pageNum, searchTerm = ViewBag.SearchTerm }),
+            new PagedListRenderOptions
+            {
+                LiElementClasses = new string[] { "page-item" },
+                PageClasses = new string[] { "page-link" }
+            })
+    </div>
+</div>

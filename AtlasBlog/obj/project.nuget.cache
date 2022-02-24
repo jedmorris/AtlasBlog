@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fKfhc0LF/Bp/2QmYinjECyRtKHfesNv176PAPZdBiiwJ8MTDhFPD1P3iallC55JwmIxSDEOCInwX8dIrm0uK6Q==",
+  "dgSpecHash": "LNeAe37GUi9afCUduNZuqEqoXhUgLkSGcYdMxCakkcq+D6puDMCCIMwM9CTkDhaYArk00Pyo0D94A4AYlVSAxg==",
   "success": true,
   "projectFilePath": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/AtlasBlog.csproj",
   "expectedPackageFiles": [
@@ -198,7 +198,9 @@
     "/Users/slothmanking/.nuget/packages/system.windows.extensions/4.7.0/system.windows.extensions.4.7.0.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/slothmanking/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
-    "/Users/slothmanking/.nuget/packages/x.pagedlist/8.1.0/x.pagedlist.8.1.0.nupkg.sha512"
+    "/Users/slothmanking/.nuget/packages/x.pagedlist/8.1.0/x.pagedlist.8.1.0.nupkg.sha512",
+    "/Users/slothmanking/.nuget/packages/x.pagedlist.mvc.core/8.1.0/x.pagedlist.mvc.core.8.1.0.nupkg.sha512",
+    "/Users/slothmanking/.nuget/packages/x.pagedlist.web.common/8.0.7/x.pagedlist.web.common.8.0.7.nupkg.sha512"
   ],
   "logs": []
 }
