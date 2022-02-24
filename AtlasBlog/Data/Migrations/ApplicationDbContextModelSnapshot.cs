@@ -56,7 +56,7 @@ namespace AtlasBlog.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("AtlasBlog.Models.BlogPost", b =>
@@ -105,7 +105,7 @@ namespace AtlasBlog.Data.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("BlogPosts");
+                    b.ToTable("BlogPosts", (string)null);
                 });
 
             modelBuilder.Entity("AtlasBlog.Models.BlogUser", b =>
@@ -230,7 +230,7 @@ namespace AtlasBlog.Data.Migrations
 
                     b.HasIndex("ModeratorId");
 
-                    b.ToTable("Comment");
+                    b.ToTable("Comment", (string)null);
                 });
 
             modelBuilder.Entity("AtlasBlog.Models.Tag", b =>
@@ -251,7 +251,7 @@ namespace AtlasBlog.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Tags");
+                    b.ToTable("Tags", (string)null);
                 });
 
             modelBuilder.Entity("BlogPostTag", b =>
@@ -266,7 +266,7 @@ namespace AtlasBlog.Data.Migrations
 
                     b.HasIndex("TagsId");
 
-                    b.ToTable("BlogPostTag");
+                    b.ToTable("BlogPostTag", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
