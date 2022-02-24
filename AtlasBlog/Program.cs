@@ -4,6 +4,7 @@ using AtlasBlog.Data;
 using AtlasBlog.Models;
 using AtlasBlog.Services;
 using AtlasBlog.Services.Interfaces;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
@@ -30,11 +31,12 @@ builder.Services.AddTransient<DataService>();
 
 builder.Services.AddScoped<IImageService, BasicImageService>();
 
+builder.Services.AddTransient<IEmailSender, BasicEmailService>();
+
 builder.Services.AddTransient<SlugService>();
 
 builder.Services.AddTransient<SearchService>();
 
-builder.Services.AddTransient<BasicEmailService>();
 
 var app = builder.Build();
 
