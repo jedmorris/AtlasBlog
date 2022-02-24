@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mLzTLs8ew/d3QFpqGGxvGUNFeq3JoIAkQtGj5kZcraE=",
+  "Hash": "Z/0e016mPg1SPcULp6Hue6szi91Vc45a6CxnN6b/pbM=",
   "Source": "AtlasBlog",
   "BasePath": "_content/AtlasBlog",
   "Mode": "Default",
@@ -1309,6 +1309,23 @@
       "OriginalItemSpec": "wwwroot/img/automotive/amg-gt.png"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/cls 2.png",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/automotive/cls 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/automotive/cls 2.png"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/cls.png",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1324,6 +1341,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/automotive/cls.png"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/g-amg 2.png",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/automotive/g-amg 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/automotive/g-amg 2.png"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/g-amg.png",
@@ -1343,6 +1377,23 @@
       "OriginalItemSpec": "wwwroot/img/automotive/g-amg.png"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/g-grey 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/automotive/g-grey 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/automotive/g-grey 2.jpg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/g-grey.jpg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1360,6 +1411,23 @@
       "OriginalItemSpec": "wwwroot/img/automotive/g-grey.jpg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/glc 2.png",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/automotive/glc 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/automotive/glc 2.png"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/glc.png",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1375,6 +1443,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/automotive/glc.png"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/s-maybach 2.png",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/automotive/s-maybach 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/automotive/s-maybach 2.png"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/automotive/s-maybach.png",
@@ -1547,6 +1632,23 @@
       "OriginalItemSpec": "wwwroot/img/creative-tim-white-slim2.png"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-10 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved-10 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved-10 2.jpg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-10.jpg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1562,6 +1664,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/curved-images/curved-10.jpg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-11 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved-11 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved-11 2.jpg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-11.jpg",
@@ -1581,6 +1700,23 @@
       "OriginalItemSpec": "wwwroot/img/curved-images/curved-11.jpg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-6 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved-6 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved-6 2.jpg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-6.jpg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1598,6 +1734,23 @@
       "OriginalItemSpec": "wwwroot/img/curved-images/curved-6.jpg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-8 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved-8 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved-8 2.jpg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved-8.jpg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -1613,6 +1766,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/curved-images/curved-8.jpg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved1 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved1 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved1 2.jpg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved1.jpg",
@@ -1817,6 +1987,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/curved-images/curved3.png"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved4 2.jpg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/curved-images/curved4 2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/curved-images/curved4 2.jpg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/curved-images/curved4.jpg",
@@ -2125,6 +2312,23 @@
       "OriginalItemSpec": "wwwroot/img/headshots/IMG_4924.PNG"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/archive-drawer 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/archive-drawer 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/archive-drawer 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/archive-drawer.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2140,6 +2344,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/archive-drawer.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/basket 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/basket 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/basket 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/basket.svg",
@@ -2159,6 +2380,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/basket.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/box-3d-50 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/box-3d-50 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/box-3d-50 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/box-3d-50.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2174,6 +2412,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/box-3d-50.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/briefcase-24 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/briefcase-24 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/briefcase-24 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/briefcase-24.svg",
@@ -2193,6 +2448,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/briefcase-24.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/bullet-list-67 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/bullet-list-67 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/bullet-list-67 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/bullet-list-67.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2208,6 +2480,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/bullet-list-67.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/chart-pie-35 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/chart-pie-35 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/chart-pie-35 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/chart-pie-35.svg",
@@ -2227,6 +2516,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/chart-pie-35.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/credit-card 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/credit-card 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/credit-card 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/credit-card.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2242,6 +2548,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/credit-card.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/customer-support 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/customer-support 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/customer-support 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/customer-support.svg",
@@ -2261,6 +2584,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/customer-support.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/delivery-fast 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/delivery-fast 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/delivery-fast 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/delivery-fast.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2276,6 +2616,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/delivery-fast.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/document 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/document 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/document 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/document.svg",
@@ -2295,6 +2652,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/document.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/map-big 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/map-big 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/map-big 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/map-big.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2310,6 +2684,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/map-big.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/megaphone 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/megaphone 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/megaphone 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/megaphone.svg",
@@ -2329,6 +2720,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/megaphone.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/office 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/office 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/office 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/office.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2344,6 +2752,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/office.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/settings 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/settings 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/settings 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/settings.svg",
@@ -2363,6 +2788,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/settings.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/shop 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/shop 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/shop 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/shop.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2378,6 +2820,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/shop.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/sound-wave 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/sound-wave 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/sound-wave 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/sound-wave.svg",
@@ -2397,6 +2856,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/sound-wave.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/spaceship 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/spaceship 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/spaceship 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/spaceship.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2412,6 +2888,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/spaceship.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/switches 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/switches 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/switches 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/switches.svg",
@@ -2431,6 +2924,23 @@
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/switches.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/time-alarm 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/time-alarm 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/time-alarm 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/time-alarm.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -2446,6 +2956,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/time-alarm.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/ungroup 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/icons/icon-with-opacity/ungroup 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/icons/icon-with-opacity/ungroup 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/icons/icon-with-opacity/ungroup.svg",
@@ -3162,6 +3689,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/google-play.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-apple 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-apple 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-apple 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-apple.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3177,6 +3721,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-apple.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-behance 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-behance 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-behance 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-behance.svg",
@@ -3196,6 +3757,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-behance.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-coinbase 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-coinbase 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-coinbase 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-coinbase.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3211,6 +3789,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-coinbase.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-digitalocean 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-digitalocean 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-digitalocean 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-digitalocean.svg",
@@ -3230,6 +3825,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-digitalocean.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-facebook 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-facebook 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-facebook 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-facebook.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3245,6 +3857,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-facebook.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-google 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-google 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-google 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-google.svg",
@@ -3264,6 +3893,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-google.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-mailchimp 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-mailchimp 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-mailchimp 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-mailchimp.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3279,6 +3925,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-mailchimp.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-nasa 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-nasa 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-nasa 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-nasa.svg",
@@ -3298,6 +3961,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-nasa.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-netflix 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-netflix 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-netflix 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-netflix.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3313,6 +3993,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-netflix.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-pinterest 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-pinterest 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-pinterest 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-pinterest.svg",
@@ -3332,6 +4029,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-pinterest.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-spotify 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-spotify 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-spotify 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-spotify.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3347,6 +4061,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-spotify.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-vodafone 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/gray-logos/logo-vodafone 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-vodafone 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/gray-logos/logo-vodafone.svg",
@@ -3366,6 +4097,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/gray-logos/logo-vodafone.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-apple 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-apple 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-apple 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-apple.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3381,6 +4129,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-apple.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-behance 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-behance 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-behance 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-behance.svg",
@@ -3400,6 +4165,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-behance.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-coinbase 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-coinbase 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-coinbase 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-coinbase.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3415,6 +4197,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-coinbase.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-digital-ocean 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-digital-ocean 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-digital-ocean 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-digital-ocean.svg",
@@ -3434,6 +4233,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-digital-ocean.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-facebook 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-facebook 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-facebook 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-facebook.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3449,6 +4265,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-facebook.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-google 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-google 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-google 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-google.svg",
@@ -3468,6 +4301,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-google.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-mailchimp 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-mailchimp 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-mailchimp 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-mailchimp.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3483,6 +4333,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-mailchimp.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-nasa 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-nasa 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-nasa 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-nasa.svg",
@@ -3502,6 +4369,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-nasa.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-netflix 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-netflix 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-netflix 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-netflix.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3517,6 +4401,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-netflix.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-pinterest 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-pinterest 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-pinterest 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-pinterest.svg",
@@ -3536,6 +4437,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-pinterest.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-spotify 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-spotify 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-spotify 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-spotify.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3551,6 +4469,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-spotify.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-vodafone 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/medium-logos/logo-vodafone 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-vodafone 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/medium-logos/logo-vodafone.svg",
@@ -3570,6 +4505,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-vodafone.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-apple 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-apple 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-apple 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-apple.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3585,6 +4537,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-apple.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-asana 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-asana 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-asana 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-asana.svg",
@@ -3604,6 +4573,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-asana.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-atlassian 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-atlassian 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-atlassian 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-atlassian.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3621,6 +4607,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-atlassian.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-facebook 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-facebook 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-facebook 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-facebook.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3636,6 +4639,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-facebook.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-google 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-google 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-google 2.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-google-drive 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-google-drive 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-google-drive 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-google-drive.svg",
@@ -3672,6 +4709,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-google.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-invision 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-invision 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-invision 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-invision.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3687,6 +4741,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-invision.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-jira 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-jira 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-jira 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-jira.svg",
@@ -3706,6 +4777,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-jira.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-shopify 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-shopify 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-shopify 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-shopify.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3721,6 +4809,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-shopify.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-slack 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-slack 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-slack 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-slack.svg",
@@ -3740,6 +4845,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-slack.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-spotify 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-spotify 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-spotify 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-spotify.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3755,6 +4877,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-spotify.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-weave 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-weave 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-weave 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-weave.svg",
@@ -3774,6 +4913,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-weave.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-webdev 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-webdev 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-webdev 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-webdev.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3789,6 +4945,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-webdev.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-xd 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/small-logos/logo-xd 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-xd 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-xd.svg",
@@ -3808,6 +4981,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/small-logos/logo-xd.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-apple-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-apple-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-apple-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-apple-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3823,6 +5013,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-apple-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-behance-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-behance-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-behance-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-behance-white.svg",
@@ -3842,6 +5049,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-behance-white.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-coinbase-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-coinbase-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-coinbase-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-coinbase-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3857,6 +5081,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-coinbase-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-digitalocean-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-digitalocean-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-digitalocean-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-digitalocean-white.svg",
@@ -3876,6 +5117,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-digitalocean-white.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-facebook-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-facebook-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-facebook-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-facebook-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3891,6 +5149,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-facebook-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-google-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-google-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-google-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-google-white.svg",
@@ -3910,6 +5185,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-google-white.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-mailchimp-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-mailchimp-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-mailchimp-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-mailchimp-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3925,6 +5217,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-mailchimp-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-nasa-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-nasa-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-nasa-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-nasa-white.svg",
@@ -3944,6 +5253,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-nasa-white.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-netflix-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-netflix-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-netflix-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-netflix-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3959,6 +5285,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-netflix-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-pinterest-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-pinterest-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-pinterest-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-pinterest-white.svg",
@@ -3978,6 +5321,23 @@
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-pinterest-white.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-spotify-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-spotify-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-spotify-white 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-spotify-white.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -3993,6 +5353,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-spotify-white.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-vodafone-white 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/white-logos/logo-vodafone-white 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/white-logos/logo-vodafone-white 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/white-logos/logo-vodafone-white.svg",
@@ -4216,6 +5593,23 @@
       "OriginalItemSpec": "wwwroot/img/placeholder.jpg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-1 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/episode-1 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/episode-1 2.jpeg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-1.jpeg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4231,6 +5625,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/podcast/episode-1.jpeg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-2 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/episode-2 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/episode-2 2.jpeg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-2.jpeg",
@@ -4250,6 +5661,23 @@
       "OriginalItemSpec": "wwwroot/img/podcast/episode-2.jpeg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-3 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/episode-3 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/episode-3 2.jpeg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/episode-3.jpeg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4265,6 +5693,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/podcast/episode-3.jpeg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/header-image 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/header-image 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/header-image 2.jpeg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/header-image.jpeg",
@@ -4284,6 +5729,23 @@
       "OriginalItemSpec": "wwwroot/img/podcast/header-image.jpeg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-1 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/podcast-1 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/podcast-1 2.jpeg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-1.jpeg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4299,6 +5761,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/podcast/podcast-1.jpeg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-2 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/podcast-2 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/podcast-2 2.jpeg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-2.jpeg",
@@ -4318,6 +5797,23 @@
       "OriginalItemSpec": "wwwroot/img/podcast/podcast-2.jpeg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-3 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/podcast-3 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/podcast-3 2.jpeg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-3.jpeg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4333,6 +5829,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/podcast/podcast-3.jpeg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-4 2.jpeg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/podcast/podcast-4 2.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/podcast/podcast-4 2.jpeg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/podcast/podcast-4.jpeg",
@@ -4352,6 +5865,23 @@
       "OriginalItemSpec": "wwwroot/img/podcast/podcast-4.jpeg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/pattern-lines 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/pattern-lines 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/pattern-lines 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/pattern-lines.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4367,6 +5897,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/shapes/pattern-lines.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-1 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/shape-1 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/shape-1 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-1.svg",
@@ -4386,6 +5933,23 @@
       "OriginalItemSpec": "wwwroot/img/shapes/shape-1.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-2 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/shape-2 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/shape-2 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-2.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4401,6 +5965,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/shapes/shape-2.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-3 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/shape-3 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/shape-3 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/shape-3.svg",
@@ -4420,6 +6001,23 @@
       "OriginalItemSpec": "wwwroot/img/shapes/shape-3.svg"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/wave-down 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/wave-down 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/wave-down 2.svg"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/wave-down.svg",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4435,6 +6033,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/shapes/wave-down.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/wave-up 2.svg",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/shapes/wave-up 2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/shapes/wave-up 2.svg"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/shapes/wave-up.svg",
@@ -4675,6 +6290,23 @@
       "OriginalItemSpec": "wwwroot/js/.DS_Store"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/bootstrap.bundle.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/core/bootstrap.bundle.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/core/bootstrap.bundle.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/bootstrap.bundle.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4690,6 +6322,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/core/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/bootstrap.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/core/bootstrap.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/core/bootstrap.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/bootstrap.min.js",
@@ -4709,6 +6358,23 @@
       "OriginalItemSpec": "wwwroot/js/core/bootstrap.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/popper.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/core/popper.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/core/popper.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/core/popper.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4724,6 +6390,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/core/popper.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/anime.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/anime.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/anime.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/anime.min.js",
@@ -4743,6 +6426,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/anime.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/chartjs.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/chartjs.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/chartjs.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/chartjs.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4758,6 +6458,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/chartjs.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/choices.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/choices.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/choices.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/choices.min.js",
@@ -4777,6 +6494,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/choices.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/countup.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/countup.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/countup.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/countup.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4792,6 +6526,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/countup.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/flatpickr.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/flatpickr.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/flatpickr.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/flatpickr.min.js",
@@ -4811,6 +6562,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/flatpickr.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/glidejs.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/glidejs.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/glidejs.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/glidejs.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4826,6 +6594,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/glidejs.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/green-audio-player.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/green-audio-player.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/green-audio-player.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/green-audio-player.min.js",
@@ -4845,6 +6630,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/green-audio-player.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/highlight.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/highlight.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/highlight.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/highlight.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4860,6 +6662,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/highlight.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/moment.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/moment.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/moment.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/moment.min.js",
@@ -4879,6 +6698,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/moment.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/nouislider.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/nouislider.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/nouislider.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/nouislider.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4894,6 +6730,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/nouislider.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/parallax.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/parallax.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/parallax.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/parallax.min.js",
@@ -4913,6 +6766,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/parallax.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/perfect-scrollbar.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/perfect-scrollbar.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/perfect-scrollbar.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/perfect-scrollbar.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4928,6 +6798,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/perfect-scrollbar.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/presentation-page/rellax.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/presentation-page/rellax.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/presentation-page/rellax.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/presentation-page/rellax.min.js",
@@ -4947,6 +6834,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/presentation-page/rellax.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/prism.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/prism.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/prism.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/prism.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4962,6 +6866,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/prism.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/rellax.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/rellax.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/rellax.min 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/rellax.min.js",
@@ -4981,6 +6902,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/rellax.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/smooth-scroll.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/smooth-scroll.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/smooth-scroll.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/smooth-scroll.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -4998,6 +6936,23 @@
       "OriginalItemSpec": "wwwroot/js/plugins/smooth-scroll.min.js"
     },
     {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/tilt.min 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/tilt.min 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/tilt.min 2.js"
+    },
+    {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/tilt.min.js",
       "SourceId": "AtlasBlog",
       "SourceType": "Discovered",
@@ -5013,6 +6968,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/plugins/tilt.min.js"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/typedjs 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "js/plugins/typedjs 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/plugins/typedjs 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/js/plugins/typedjs.js",
@@ -6050,6 +8022,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/oldJS/site 2.js",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "oldJS/site 2.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/oldJS/site 2.js"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/oldJS/site.js",
