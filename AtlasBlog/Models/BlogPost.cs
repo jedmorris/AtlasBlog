@@ -36,7 +36,7 @@ public class BlogPost
     public DateTime? Updated { get; set; }
     
     // Navigation properties
-    public virtual Blog Blog { get; set; } = new();
+    public virtual Blog? Blog { get; set; } 
     public ICollection<Comment> Comments { get; set; } = new HashSet<Comment>();
     public ICollection<Tag> Tags { get; set; } = new HashSet<Tag>();
 }
