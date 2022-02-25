@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "aQQNwVy+5231WVapIqk8oD9NYw4I7SzxQq0t+e/CQcc=",
+  "Hash": "UEwGAbHWgR5nDj8yo+yO7dhqIaH5UDqOwVL94EAGiwI=",
   "Source": "AtlasBlog",
   "BasePath": "_content/AtlasBlog",
   "Mode": "Default",
@@ -4503,6 +4503,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/logos/medium-logos/logo-vodafone.svg"
+    },
+    {
+      "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/NET_Core_Logo.svg.png",
+      "SourceId": "AtlasBlog",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/",
+      "BasePath": "_content/AtlasBlog",
+      "RelativePath": "img/logos/NET_Core_Logo.svg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/logos/NET_Core_Logo.svg.png"
     },
     {
       "Identity": "/Users/slothmanking/Documents/Projects/CoderFoundry/atlas/AtlasBlog/AtlasBlog/wwwroot/img/logos/small-logos/logo-apple 2.svg",

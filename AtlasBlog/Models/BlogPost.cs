@@ -29,7 +29,7 @@ public class BlogPost
     public BlogPostState BlogPostState { get; set; }
     
     [Required]
-    [StringLength(200, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]
+    [StringLength(2000, ErrorMessage = "The {0} must be at least {2} and at most {1} characters long.", MinimumLength = 2)]
     public string Body { get; set; } = "";
     
     public DateTime Created { get; set; }
