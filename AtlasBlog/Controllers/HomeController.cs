@@ -29,7 +29,7 @@ public class HomeController : Controller
         return View(blogs);
     }
 
-    public IActionResult Privacy()
+    public IActionResult About()
     {
         return View();
     }
