@@ -83,6 +83,7 @@ namespace AtlasBlog.Controllers
         }
 
         // GET: BlogPost/Create
+        [Authorize(Roles = "Administrator")]
         public IActionResult Create()
         {
             ViewData["BlogId"] = new SelectList(_context.Blogs, "Id", "BlogName");
